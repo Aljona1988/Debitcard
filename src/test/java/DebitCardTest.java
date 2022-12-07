@@ -16,7 +16,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
         @BeforeAll
         static void setUpAll() {
-            System.setProperty("webdriver.chrome.driver", "./driver/win/chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", "c:\\users\\nnd_efedki\\IdeaProjects\\Debitcard\\driver\\win\\chromedriver.exe");
         }
 
         @BeforeEach
